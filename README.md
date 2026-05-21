@@ -19,7 +19,7 @@ Floating utility panels for [OpenFront](https://openfront.io/).
 
 ## Installation
 
-1. Install a userscript manager such as Tampermonkey, Violentmonkey, or another compatible extension.
+1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
 2. Click the install button above, or open the raw userscript file directly:
    `https://raw.githubusercontent.com/michaldaniel/openfront-tools-userscript/main/openfront-tools.user.js`
 3. Your userscript manager should prompt you to install or update OpenFront Tools.
