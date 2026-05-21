@@ -9,6 +9,8 @@ Floating utility panels for [OpenFront](https://openfront.io/).
 
 [![Install OpenFront Tools](https://img.shields.io/badge/Install-OpenFront%20Tools-22c55e?style=for-the-badge)](https://raw.githubusercontent.com/michaldaniel/openfront-tools-userscript/main/openfront-tools.user.js)
 
+![OpenFront Tools panels in-game](assets/openfront-tools-preview.png)
+
 ## Features
 
 - MIRV Calculator: reads the live MIRV price when available and calculates throw cost.
