@@ -1,39 +1,31 @@
 # Release Process
 
-The README is user-facing. Keep release chores here so the public landing page stays focused on installing and using the script.
+Use this checklist when publishing a new version.
 
-1. Update `@version` in `openfront-tools.user.js`.
-2. Update the version badge and changelog in `README.md` and `CHANGELOG.md`.
-3. Run:
-
+1. Update version references:
+   - `@version` and `VERSION` in `openfront-tools.user.js`
+   - version badge in `README.md`
+   - top entry in `CHANGELOG.md`
+2. Check the script:
 ```sh
 node --check openfront-tools.user.js
 ```
 
-4. Commit the release:
-
+3. Commit and tag:
 ```sh
 git add openfront-tools.user.js README.md CHANGELOG.md docs/RELEASE.md
 git commit -m "Release vX.Y.Z"
-```
-
-5. Tag the release:
-
-```sh
 git tag vX.Y.Z
 git push origin main --tags
 ```
 
-6. Create a GitHub release and attach `openfront-tools.user.js`.
+4. Create a GitHub release:
+   - title: `OpenFront Tools vX.Y.Z`
+   - notes: copy the matching `CHANGELOG.md` section
+   - asset: attach `openfront-tools.user.js`
 
-Recommended release title:
+## Install URL
 
-```text
-OpenFront Tools vX.Y.Z
-```
-
-Recommended release notes:
-
-```text
-See CHANGELOG.md for details.
+```txt
+https://raw.githubusercontent.com/michaldaniel/openfront-tools-userscript/main/openfront-tools.user.js
 ```
