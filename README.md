@@ -7,6 +7,8 @@
 
 Floating utility panels for [OpenFront](https://openfront.io/).
 
+[![Install OpenFront Tools](https://img.shields.io/badge/Install-OpenFront%20Tools-22c55e?style=for-the-badge)](https://raw.githubusercontent.com/michaldaniel/openfront-tools-userscript/main/openfront-tools.user.js)
+
 ## Features
 
 - MIRV Calculator: reads the live MIRV price when available and calculates throw cost.
@@ -18,7 +20,7 @@ Floating utility panels for [OpenFront](https://openfront.io/).
 ## Installation
 
 1. Install a userscript manager such as Tampermonkey, Violentmonkey, or another compatible extension.
-2. Open the raw userscript file from this repository:
+2. Click the install button above, or open the raw userscript file directly:
    `https://raw.githubusercontent.com/michaldaniel/openfront-tools-userscript/main/openfront-tools.user.js`
 3. Your userscript manager should prompt you to install or update OpenFront Tools.
 4. Visit `https://openfront.io/`.
